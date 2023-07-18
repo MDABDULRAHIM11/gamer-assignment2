@@ -19,4 +19,20 @@
     nav{
         box-shadow: none;
     }
+    /* banner section responsive */
+    .banner-section{
+        background: none;
+    }
+    .banner-container {
+       flex-direction: column-reverse;
+    }
+    .banner-title-container {
+        width:fit-content;
+    }
+    .banner-image-container {
+        width: 74%;
+    }
+    .banner-image-container img {
+        padding-bottom: 50px;
+    }
 }
