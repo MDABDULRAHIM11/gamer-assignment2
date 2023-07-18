@@ -1,0 +1,22 @@
+@media screen and (min-width:576px) and (max-width:992px){
+    .nav-container{
+        flex-direction: column;
+    }
+    .nav-option-container{
+        flex-direction: column;
+    }
+    .first-option{
+        flex-direction: column;
+        gap: 25px;
+    }
+    .second-option{
+        padding: 8px 13px;
+        gap: 25px;
+    }
+    .logo-container{
+        padding-bottom: 27px;
+    }
+    nav{
+        box-shadow: none;
+    }
+}
