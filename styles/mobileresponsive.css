@@ -48,6 +48,15 @@
     .banner-image-container img {
         padding-bottom: 50px;
     }
+    .banner-title-container h1{
+        font-size: 59px;
+    }
+    .banner-title-container h3{
+        font-size: 30px;
+    }
+    .banner-title-container p{
+        font-size: 15px;
+    }
 
     /* funny-games section starts from here */
     .funny-games-title h3 {
@@ -193,5 +202,24 @@
     margin-top: 20px;
 }
 
-
+/* we are gamer section start from here */
+.we-are-gamer-container {
+   flex-direction: column;
+}
+.we-are-gamer-image {
+    width: 100%;
+}
+.we-are-gamer-title, .we-are-gamer-title>h2, .we-are-gamer-title > p, .we-are-gamer-title button, .we-are-gamer-title h4 {
+    text-align: center;
+}
+.we-are-gamer-title>h2{
+    font-size: 33px;
+}
+.we-are-gamer-title h3{
+    font-size: 23px;
+    padding-bottom: 30px;
+}
+.we-are-gamer-title p{
+    font-size: 12px;
+}
 }

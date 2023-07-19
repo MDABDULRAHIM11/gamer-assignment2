@@ -137,6 +137,20 @@
         grid-template-columns: repeat(3, 1fr);
         column-gap: 0px;
     }
+    
+/* we are gamer section start from here */
+.we-are-gamer-container {
+    flex-direction: column;
+ }
+ .we-are-gamer-image {
+     width: 100%;
+ }
+ .we-are-gamer-title, .we-are-gamer-title>h2, .we-are-gamer-title > p, .we-are-gamer-title button, .we-are-gamer-title h4 {
+     text-align: center;
+ }
+ .we-are-gamer-title h3{
+    padding-bottom: 30px;
+}
 }
 
 
