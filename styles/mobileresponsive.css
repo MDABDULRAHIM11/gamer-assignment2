@@ -87,6 +87,10 @@
     padding-bottom: 27px;
 }
     /*  */
+    .play-online-section {
+        margin-top: -47px;
+    }
+     
     .play-online-container {
     
         flex-direction: column;

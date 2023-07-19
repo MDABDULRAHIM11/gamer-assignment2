@@ -94,6 +94,41 @@
  .play-instantly-title > p{
      padding-bottom: 27px;
  }
+ 
+ /* play online section */
+    .play-online-section {
+    
+       margin-top: -40px;
+     }
+.play-online-container {
+    
+    flex-direction: column;
+ }
+ 
+ .play-online-title {
+     width: 67%;
+     text-align: right;
+     text-align: center;
+ }
+ 
+ .play-online-image {
+     width: 100%;
+     text-align: center;
+ }
+ 
+ .play-online-image img {
+     width: 327px;
+     height: 100%;
+ }
+ .upper-image2 > img{
+     width: 163px;
+     bottom: 136px;
+     left: 140px;
+ }
+ .play-online-title > p{
+     padding-bottom: 27px;
+ }
+     
      
 }
 
