@@ -1,4 +1,4 @@
-@media screen and (min-width:576px) and (max-width:992px){
+@media screen and (min-width:576px) and (max-width:1024px){
     .nav-container{
         flex-direction: column;
     }
@@ -27,7 +27,8 @@
        flex-direction: column-reverse;
     }
     .banner-title-container {
-        width:fit-content;
+        width:100%;
+        text-align: center;
     }
     .banner-image-container {
         width: 74%;

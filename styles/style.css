@@ -160,4 +160,7 @@ nav {
     text-transform: uppercase;
     padding: 15px 25px;
 }
+.btn:hover{
+    cursor: pointer;
+}
 
