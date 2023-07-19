@@ -187,6 +187,10 @@ justify-content: center;
 .career-section{
     padding-top: 50px;
 }
+.career-image>img {
+    width: 100%;
+    height: 100%;
+}
 }
 
 
