@@ -212,9 +212,47 @@ background-clip: text;
     height: 264px;
     width: 100%;
     padding-bottom: 12px;
+    opacity: 1;
+  display: block;
+  transition: .5s ease;
+  backface-visibility: hidden;
 }
 
 .video-single p{
     font-size: 13px;
     line-height: 19px;
 }
+.middle {
+    transition: .5s ease;
+    opacity: 0;
+    position: absolute;
+    transform: translate(100%, -217%);
+    text-align: center;
+  }
+  .image-container:hover .image {
+    border-radius: 10px;
+    opacity: 0.3;
+  }
+  
+  .image-container:hover .middle {
+    opacity: 2;
+  }
+
+  .middle:hover{
+    text-align: center;
+  }
+
+  .text{
+     color: #FF42A5;
+  }
+
+  /* play-instantly-section starts from here */
+  .play-instantly-container{
+    border: 1px solid blue;
+    width: 1100px;
+    margin: 0px auto;
+  }
+
+  .play-instantly-title{
+    border: 1px solid ;
+  }
