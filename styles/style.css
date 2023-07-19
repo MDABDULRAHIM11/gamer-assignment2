@@ -251,14 +251,14 @@ nav {
 }
 
 /* play-instantly-section starts from here */
-.play-instantly-section{
+.play-instantly-section {
     margin-top: -50px;
     max-width: 1100px;
     margin: 0px auto;
 }
 
 .play-instantly-container {
-    
+
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -278,8 +278,8 @@ nav {
     height: 100%;
 }
 
-.play-instantly-title > h2 {
-    align-self:self-end;
+.play-instantly-title>h2 {
+    align-self: self-end;
     font-size: 30px;
     font-weight: 700;
     margin-bottom: 15px;
@@ -292,31 +292,33 @@ nav {
     -webkit-text-fill-color: transparent;
 }
 
-.play-instantly-title > p{
+.play-instantly-title>p {
     color: #534C64;
     line-height: 25px;
 }
 
-.upper-image{
-   display: flex;
-   justify-content: center;
-   position: relative;
+.upper-image {
+    display: flex;
+    justify-content: center;
+    position: relative;
 
 }
 
-.upper-image > img{
+.upper-image>img {
     width: 200px;
     position: relative;
     left: 78px;
     bottom: 179px;
 }
+
 /* online playing section */
-.play-online-section{
+.play-online-section {
     max-width: 1100px;
     margin: 0px auto;
 }
+
 .play-online-container {
-    
+
     display: flex;
     flex-direction: row-reverse;
     justify-content: space-around;
@@ -337,8 +339,8 @@ nav {
     height: 100%;
 }
 
-.play-online-title > h2 {
-    align-self:self-end;
+.play-online-title>h2 {
+    align-self: self-end;
     font-size: 30px;
     font-weight: 700;
     margin-bottom: 15px;
@@ -351,21 +353,70 @@ nav {
     -webkit-text-fill-color: transparent;
 }
 
-.play-online-title > p{
+.play-online-title>p {
     color: #534C64;
     line-height: 25px;
 }
 
-.upper-image2{
-   display: flex;
-   justify-content: center;
-   position: relative;
+.upper-image2 {
+    display: flex;
+    justify-content: center;
+    position: relative;
 
 }
 
-.upper-image2 > img{
+.upper-image2>img {
     width: 200px;
     position: relative;
     left: -78px;
     bottom: 179px;
+}
+
+/* game-option-scetion starts from here */
+.game-option-scetion {
+    background: linear-gradient(90deg, rgba(255, 66, 165, 0.03) 0%, rgba(255, 66, 165, 0.03) 100%);
+    min-height: 265px;
+    margin-top: -65px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.game-option-container{
+    max-width: 1000px;
+    margin: 0px auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+    row-gap: 20px;
+}
+.single-game-option{
+    width: fit-content;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    background-color: #FFF;
+    border-radius: 50px;
+    padding:5px 10px
+}
+
+.single-game-option > p{
+    color: #0B0223;
+font-weight: 600;
+}
+
+.single-game-option > img{
+    width: 50px;
+    height: 50px;
+}
+.single-game-option:hover{
+    border: 1px solid #F948B2;
+
+}
+
+.single-game-option:hover p{
+   color:#F948B2;
+
 }
