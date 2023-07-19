@@ -65,6 +65,36 @@
        gap: 50px;
        grid-template-columns: repeat(2, 200px);
     }
+    /* play instantly section */
+.play-instantly-container {
+    
+    flex-direction: column;
+ }
+ 
+ .play-instantly-title {
+     width: 100%;
+     text-align: right;
+     text-align: center;
+ }
+ 
+ .play-instantly-image {
+     width: 100%;
+     text-align: center;
+ }
+ 
+ .play-instantly-image img {
+     width: 327px;
+     height: 100%;
+ }
+ .upper-image > img{
+     width: 163px;
+     bottom: 136px;
+     left: 140px;
+ }
+ .play-instantly-title > p{
+     padding-bottom: 27px;
+ }
+     
 }
 
 

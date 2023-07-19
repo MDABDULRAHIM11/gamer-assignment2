@@ -58,5 +58,60 @@
     .video-single{
         height: 340px;
     }
+/* play instantly section */
+.play-instantly-container {
     
+   flex-direction: column;
+}
+
+.play-instantly-title {
+    width: 100%;
+    text-align: right;
+    text-align: center;
+}
+
+.play-instantly-image {
+    width: 100%;
+    text-align: center;
+}
+
+.play-instantly-image img {
+    width: 240px;
+    height: 100%;
+}
+.upper-image > img{
+    width: 141px;
+    bottom: 129px;
+}
+.play-instantly-title > p{
+    padding-bottom: 27px;
+}
+    /*  */
+    .play-online-container {
+    
+        flex-direction: column;
+     }
+     
+     .play-online-title {
+         width: 100%;
+         text-align: right;
+         text-align: center;
+     }
+     
+     .play-online-image {
+         width: 100%;
+         text-align: center;
+     }
+     
+     .play-online-image img {
+         width: 240px;
+         height: 100%;
+     }
+     .upper-image2 > img{
+         width: 141px;
+         bottom: 129px;
+     }
+     .play-online-title > p{
+         padding-bottom: 27px;
+     }
 }
