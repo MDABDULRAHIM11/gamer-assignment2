@@ -377,10 +377,11 @@ nav {
 .game-option-scetion {
     background: linear-gradient(90deg, rgba(255, 66, 165, 0.03) 0%, rgba(255, 66, 165, 0.03) 100%);
     min-height: 265px;
-    margin-top: -65px;
     display: flex;
     justify-content: center;
     align-items: center;
+    min-height: 388px;
+    margin-top: 50px
 }
 
 .game-option-container {
@@ -594,4 +595,80 @@ margin-bottom: 5px;
     color: #534C64;
 font-size: 26px;
 font-weight: 700;
+}
+/* career section starts from here */
+.career-section{
+    margin-bottom: 65px;
+    margin-bottom: -50px;
+    background-color:#FF42A5
+}
+.career-container{
+    min-height: 550px;
+    max-width: 1100px;
+    margin: 0px auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   
+}
+
+.career-title{
+    width: 50%;
+}
+
+.career-image{
+    width: 50%;
+}
+
+.career-image > img{
+    width: 120%;
+    height: 100%;
+}
+
+.career-info-container{
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 30px;
+}
+
+.career-info2{
+    text-align: right;
+}
+
+.career-title > h3{
+    color: #FFF;
+font-size: 36px;
+font-weight: 700;
+padding-bottom: 32px;
+}
+
+.career-title{
+    color: #FFF;
+    font-size: 14px;
+font-weight: 400;
+line-height: 24px;
+
+}
+
+.career-info-container p{
+  font-weight: bolder;
+}
+
+.career-title > p{
+    padding-bottom: 28px;
+}
+
+.careers-btn{
+    border: none;
+    outline: none;
+    border-radius: 48px;
+    background:white;
+    color: #FF42A5;
+    font-weight: 600;
+    text-transform: uppercase;
+    padding: 15px 27px;
+}
+
+.careers-btn:hover{
+    cursor: pointer;
 }

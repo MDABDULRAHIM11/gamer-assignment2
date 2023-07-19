@@ -1,4 +1,4 @@
-@media screen and (min-width:577px) and (max-width:768px) {
+@media screen and (min-width:577px) and (max-width:1024px) {
     .nav-container {
         flex-direction: column;
     }
@@ -150,6 +150,42 @@
  }
  .we-are-gamer-title h3{
     padding-bottom: 30px;
+}
+
+/* career section rseponsible */
+.career-title {
+    width: 100%;
+}
+
+.career-image {
+    width: 100%;
+}
+
+.career-container {
+    flex-direction: column;
+}
+
+.career-info-container {
+justify-content: space-around;
+    text-align: center;
+}
+.career-info,
+.career-info2,
+.career-title>h3,
+p {
+    text-align: center;
+}
+
+.careers-btn {
+    align-self: center;
+    margin-bottom: 30px;
+}
+.careers-btn-container{
+display: flex;
+justify-content: center;
+}
+.career-section{
+    padding-top: 50px;
 }
 }
 
