@@ -1,121 +1,197 @@
 @media screen and (max-width:576px) {
+
     /* nav responsive start from here */
-    .nav-container{
+    .nav-container {
         flex-direction: column;
     }
-    .nav-option-container{
+
+    .nav-option-container {
         flex-direction: column;
     }
-    .first-option{
+
+    .first-option {
         flex-direction: column;
         gap: 25px;
     }
-    .second-option{
+
+    .second-option {
         padding: 8px 13px;
         gap: 25px;
     }
-    .logo-container{
+
+    .logo-container {
         padding-bottom: 27px;
     }
-    nav{
+
+    nav {
         box-shadow: none;
     }
+
     /* nav responsive ends here */
     /* banner responsive starts form here */
-    .banner-section{
+    .banner-section {
         background: none;
     }
+
     .banner-container {
-       flex-direction: column-reverse;
+        flex-direction: column-reverse;
     }
+
     .banner-title-container {
-        width:fit-content;
+        width: fit-content;
     }
+
     .banner-image-container {
         width: 74%;
     }
+
     .banner-image-container img {
         padding-bottom: 50px;
     }
+
     /* funny-games section starts from here */
-    .funny-games-title h3{
-    font-size: 23px;
-    }
-    
-    .funny-games-title p{
-    font-size: 10px;
+    .funny-games-title h3 {
+        font-size: 23px;
     }
 
-    .funny-games-title{
-        padding:0px 15px;
+    .funny-games-title p {
+        font-size: 10px;
+    }
+
+    .funny-games-title {
+        padding: 0px 15px;
         padding-bottom: 34px;
     }
-    .video-container{
+
+    .video-container {
         flex-direction: column;
         align-items: center;
         gap: 0px;
     }
-    .video-single{
+
+    .video-single {
         height: 340px;
     }
-/* play instantly section */
-.play-instantly-container {
-    
-   flex-direction: column;
-}
 
-.play-instantly-title {
-    width: 100%;
-    text-align: right;
-    text-align: center;
-}
+    /* play instantly section */
+    .play-instantly-container {
 
-.play-instantly-image {
-    width: 100%;
-    text-align: center;
-}
+        flex-direction: column;
+    }
 
-.play-instantly-image img {
-    width: 240px;
-    height: 100%;
-}
-.upper-image > img{
-    width: 141px;
-    bottom: 129px;
-}
-.play-instantly-title > p{
-    padding-bottom: 27px;
-}
+    .play-instantly-title {
+        width: 100%;
+        text-align: right;
+        text-align: center;
+    }
+
+    .play-instantly-image {
+        width: 100%;
+        text-align: center;
+    }
+
+    .play-instantly-image img {
+        width: 240px;
+        height: 100%;
+    }
+
+    .upper-image>img {
+        width: 141px;
+        bottom: 129px;
+    }
+
+    .play-instantly-title>p {
+        padding-bottom: 27px;
+    }
+
     /*  */
     .play-online-section {
         margin-top: -47px;
     }
-     
+
     .play-online-container {
-    
+
         flex-direction: column;
-     }
-     
-     .play-online-title {
-         width: 100%;
-         text-align: right;
-         text-align: center;
-     }
-     
-     .play-online-image {
-         width: 100%;
-         text-align: center;
-     }
-     
-     .play-online-image img {
-         width: 240px;
-         height: 100%;
-     }
-     .upper-image2 > img{
-         width: 141px;
-         bottom: 129px;
-     }
-     .play-online-title > p{
-         padding-bottom: 27px;
-     }
+    }
+
+    .play-online-title {
+        width: 100%;
+        text-align: right;
+        text-align: center;
+    }
+
+    .play-online-image {
+        width: 100%;
+        text-align: center;
+    }
+
+    .play-online-image img {
+        width: 240px;
+        height: 100%;
+    }
+
+    .upper-image2>img {
+        width: 141px;
+        bottom: 129px;
+    }
+
+    .play-online-title>p {
+        padding-bottom: 27px;
+    }
+
+    /* games option section */
+    .game-option-container {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+    }
+
+    .single-game-option>p {
+        font-size: 8px;
+    }
+
+    .single-game-option>img {
+        width: 30px;
+        height: 30px;
+    }
+
+    /* footer responsive starts from here */
+    .footer-option {
+        grid-template-columns: repeat(3, 1fr);
+        column-gap: 0px;
+    }
+
+    .social-media-link {
+        display: grid;
+        gap: 0px;
+        grid-template-columns: repeat(3, 1fr);
+        row-gap: 10px;
+    }
+
+    .footer-option,
+    li {
+        font-size: 12px;
+    }
+    .link{
+        font-size: 18px;
+       
+    }
+    .footer-privacy{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 0px;
+        
+    }
+
+    .footer-privacy > li, .copyright{
+    font-size: 9px;
+    }
+
+    .footer-privacy> li{
+        margin-bottom: 10px;
+    }
+.copyright{
+    margin-top: 20px;
+}
+
+
 }

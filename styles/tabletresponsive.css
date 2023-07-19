@@ -128,8 +128,15 @@
  .play-online-title > p{
      padding-bottom: 27px;
  }
-     
-     
+ .game-option-container {
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+}
+     /* footer section */
+     .footer-option {
+        grid-template-columns: repeat(3, 1fr);
+        column-gap: 0px;
+    }
 }
 
 
