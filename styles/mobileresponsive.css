@@ -37,4 +37,26 @@
     .banner-image-container img {
         padding-bottom: 50px;
     }
+    /* funny-games section starts from here */
+    .funny-games-title h3{
+    font-size: 23px;
+    }
+    
+    .funny-games-title p{
+    font-size: 10px;
+    }
+
+    .funny-games-title{
+        padding:0px 15px;
+        padding-bottom: 34px;
+    }
+    .video-container{
+        flex-direction: column;
+        align-items: center;
+        gap: 0px;
+    }
+    .video-single{
+        height: 340px;
+    }
+    
 }

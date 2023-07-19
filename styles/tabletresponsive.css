@@ -1,39 +1,72 @@
-@media screen and (min-width:576px) and (max-width:1024px){
-    .nav-container{
+@media screen and (min-width:577px) and (max-width:768px) {
+    .nav-container {
         flex-direction: column;
     }
-    .nav-option-container{
+
+    .nav-option-container {
         flex-direction: column;
     }
-    .first-option{
+
+    .first-option {
         flex-direction: column;
         gap: 25px;
     }
-    .second-option{
+
+    .second-option {
         padding: 8px 13px;
         gap: 25px;
     }
-    .logo-container{
+
+    .logo-container {
         padding-bottom: 27px;
     }
-    nav{
+
+    nav {
         box-shadow: none;
     }
+
     /* banner section responsive */
-    .banner-section{
+    .banner-section {
         background: none;
     }
+
     .banner-container {
-       flex-direction: column-reverse;
+        flex-direction: column-reverse;
     }
+
     .banner-title-container {
-        width:100%;
+        width: 100%;
         text-align: center;
     }
+
     .banner-image-container {
         width: 74%;
     }
+
     .banner-image-container img {
         padding-bottom: 50px;
     }
+
+    /* funny-games section starts from here */
+    .funny-games-title h3 {
+        font-size: 30px;
+    }
+
+    .funny-games-title p {
+        font-size: 13px;
+    }
+
+    .funny-games-title {
+        padding: 0px 15px;
+        padding-bottom: 34px;
+    }
+    .video-container{
+       display: grid;
+       gap: 50px;
+       grid-template-columns: repeat(2, 200px);
+    }
 }
+
+
+
+
